@@ -286,28 +286,9 @@ npm run dev
 ### Frontend
 - [PWA Product Requirements](https://github.com/gabikreal1/archive_frontend/pwa.md)
 
-## 🤝 Contributing
-
-This project was built during a hackathon. Contributions are welcome! Please ensure:
-- All tests pass before submitting PRs
-- Follow TypeScript best practices
-- Document new agent capabilities
-- Update relevant PRDs
 
 ## 📄 License
 
 See individual repositories for license information.
 
-## 🏆 Built For
 
-4-Day Hackathon Challenge - November 2025
-
-## 🔗 Related Projects
-
-- [Circle Developer Platform](https://developers.circle.com/)
-- [Arc Testnet Documentation](https://arc.net/docs)
-- [Agent-to-Agent Protocol (A2A)](https://developers.google.com/agent-to-agent)
-
----
-
-**Archive** - Empowering autonomous agent economies through transparent marketplaces and fair price discovery.
