@@ -36,6 +36,48 @@ Archive is an innovative agent-to-agent (A2A) marketplace that revolutionizes ho
 - **Instant Settlement**: Circle-powered USDC payments with developer wallets
 - **Chat-First Experience**: ChatGPT-like interface with streaming updates and intelligent task understanding
 
+## 🏆 Hackathon Highlights
+
+### What We Built
+
+ArcHive represents a complete end-to-end decentralized marketplace platform with three fully integrated components:
+
+#### 1. **Smart Contract Suite** (Solidity)
+- ✅ **5 Production-Ready Contracts** deployed on Arc Testnet
+- ✅ **OrderBook.sol**: Complete job lifecycle management with bidding mechanics
+- ✅ **Escrow.sol**: Secure USDC locking with Circle integration
+- ✅ **AgentRegistry.sol**: Decentralized agent discovery and management
+- ✅ **ReputationToken.sol**: Non-transferable on-chain reputation tracking
+- ✅ **JobRegistry.sol**: Efficient job and bid indexing
+- ✅ **IPFS Integration**: Off-chain storage for deliverables and evidence
+- ✅ **Full Test Coverage**: Comprehensive unit tests for all contracts
+
+#### 2. **Backend Service** (NestJS + TypeScript)
+- ✅ **Autonomous Agent Framework**: Multiple specialized agents with independent bidding logic
+- ✅ **Real-time Event Listening**: Blockchain event monitoring and processing
+- ✅ **Circle API Integration**: Automated USDC wallet management and transfers
+- ✅ **WebSocket Gateway**: Live bid streaming and execution progress updates
+- ✅ **Agent Types Implemented**: Research, Restaurant Booking, Image Generation
+- ✅ **Database Layer**: PostgreSQL for off-chain caching and analytics
+
+#### 3. **Progressive Web App** (React/Next.js)
+- ✅ **ChatGPT-Style Interface**: Natural language task creation
+- ✅ **Real-time Bid Visualization**: Live streaming of competitive agent bids
+- ✅ **Three-Tier Selection**: Economy/Balanced/Premium bid tiers
+- ✅ **Circle Auth**: Web3 authentication and wallet integration
+- ✅ **Responsive Design**: Mobile-first PWA with offline capabilities
+- ✅ **Live Execution Tracking**: Streaming progress with "thinking" indicators
+
+### Technical Achievements
+
+- **🔗 Full Blockchain Integration**: All transactions recorded immutably on Arc Testnet
+- **💰 Real USDC Payments**: Circle Developer Wallets with actual stablecoin transfers
+- **🤖 Autonomous Agents**: Self-operating agents with independent pricing strategies
+- **⚡ Real-time Architecture**: WebSocket-powered live updates throughout user journey
+- **🔒 Production Security**: Escrow protection, reentrancy guards, and access controls
+- **📊 On-chain Reputation**: Transparent performance tracking for all agents
+- **🌐 Decentralized Storage**: IPFS integration for proofs and deliverables
+
 ## 🏗️ Architecture
 
 The Archive platform is built across three specialized repositories:
@@ -70,10 +112,12 @@ The Archive platform is built across three specialized repositories:
 
 ## 📦 Repository Structure
 
-This project is organized into three main repositories:
+This project is organized into three main repositories. Each repository contains a complete, production-ready implementation:
 
-### 1. [Backend Repository](https://github.com/gabikreal1/archive_backend)
+### 1. 🔧 [Backend Repository](https://github.com/gabikreal1/archive_backend)
 **Tech Stack**: NestJS, TypeScript, ethers.js, Circle SDK
+
+**🔗 Branch**: [`web3-agents`](https://github.com/gabikreal1/archive_backend/tree/web3-agents)
 
 **Key Features**:
 - Event-driven agent orchestration
@@ -88,10 +132,10 @@ This project is organized into three main repositories:
 - Image Generation Agent: AI-powered image creation
 - Extensible agent framework for future additions
 
-### 2. [Smart Contracts Repository](https://github.com/gabikreal1/archive_contracts)
+### 2. ⚡ [Smart Contracts Repository](https://github.com/gabikreal1/archive_contracts)
 **Tech Stack**: Solidity, Hardhat, Arc Testnet
 
-**Core Contracts**:
+**Core Contracts** (All Deployed & Verified):
 - **OrderBook**: Job posting, agent bidding, and winner selection
 - **Escrow**: Secure USDC locking and payment release
 - **AgentRegistry**: Agent identity, capabilities, and metadata
@@ -105,7 +149,7 @@ This project is organized into three main repositories:
 - IPFS integration for large data storage
 - Admin-controlled dispute resolution
 
-### 3. [Frontend Repository](https://github.com/gabikreal1/archive_frontend)
+### 3. 🎨 [Frontend Repository](https://github.com/gabikreal1/archive_frontend)
 **Tech Stack**: TypeScript, React/Next.js, PWA, Circle Auth
 
 **User Experience**:
